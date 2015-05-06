@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# repo-sandbox documentation build configuration file, created by
-# sphinx-quickstart on Tue May  5 17:07:47 2015.
+# Repo Sandbox documentation build configuration file, created by
+# sphinx-quickstart on Wed May  6 10:21:57 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -28,13 +28,7 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.viewcode',
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -49,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'repo-sandbox'
+project = u'Repo Sandbox'
 copyright = u'2015, David Mah'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -73,7 +67,7 @@ release = '0.0.1'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -182,7 +176,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'repo-sandboxdoc'
+htmlhelp_basename = 'RepoSandboxdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -202,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'repo-sandbox.tex', u'repo-sandbox Documentation',
+  ('index', 'RepoSandbox.tex', u'Repo Sandbox Documentation',
    u'David Mah', 'manual'),
 ]
 
@@ -232,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'repo-sandbox', u'repo-sandbox Documentation',
+    ('index', 'reposandbox', u'Repo Sandbox Documentation',
      [u'David Mah'], 1)
 ]
 
@@ -246,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'repo-sandbox', u'repo-sandbox Documentation',
-   u'David Mah', 'repo-sandbox', 'One line description of project.',
+  ('index', 'RepoSandbox', u'Repo Sandbox Documentation',
+   u'David Mah', 'RepoSandbox', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -262,7 +256,3 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
-
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}

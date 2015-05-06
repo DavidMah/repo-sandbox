@@ -1,9 +1,9 @@
-.. repo-sandbox documentation master file, created by
-   sphinx-quickstart on Tue May  5 17:07:47 2015.
+.. Repo Sandbox documentation master file, created by
+   sphinx-quickstart on Wed May  6 10:21:57 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to repo-sandbox's documentation!
+Welcome to Repo Sandbox's documentation!
 ========================================
 
 Contents:
